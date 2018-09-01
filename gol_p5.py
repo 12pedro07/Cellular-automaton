@@ -6,6 +6,7 @@ import numpy as np
 #################################################################
 #                                                               #
 #   ADAPTAÇÃO DO GAME OF LIFE PARA O TERMINAL UTILIZANDO O P5   #
+#                     (NADA OTIMIZADO)                          #
 #                                                               #
 #################################################################
 
@@ -54,7 +55,7 @@ rand()
 np2string()
 
 def setup():
-    size(1920,1080)
+    size(1920,1080) # tamanho da tela
     global grid
     grid = [[] for z in range(rows)]
     for i in range(rows):
