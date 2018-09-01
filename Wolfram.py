@@ -2,7 +2,7 @@ import numpy as np
 import random
 import time
 
-size = 151
+size = 151 # edit this value to fit the size of the terminal
 v = []
 for cont in range(size):
     if cont == round(size/2):
